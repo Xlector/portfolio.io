@@ -1,0 +1,74 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+	background: url('../images/skull.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover;
+}
+#centered-img{
+	border-radius: 50%;
+    float:right;
+	margin-right: 45%;
+	margin-top:20%;
+	backdrop-filter:blur(100px);
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	border: 10px solid transparent;
+}
+#container{
+	background-color: transparent;
+	position:absolute;
+	color: white;
+	width: 25%;
+	padding: 15px;
+	padding-bottom: 16.51%;
+	border-radius:20px;
+	backdrop-filter:blur(100px);
+}
+h1 {
+font-size:80px;
+font-family: 'Roboto Mono', monospace;
+color: white;
+}
+h2{
+	background-color:#6b6b6b;
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+	padding:5px;
+	font-family: 'Indie Flower', cursive;
+}
+a {
+	color:#6b6b6b;
+	text-decoration:none; 
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+}
+#right-container {
+	border-radius: 10px;
+	position: absolute;
+	backdrop-filter: blur(100px) ;
+	width: 25%;
+	margin-left: 75%;
+}
+#last-thing{
+	text-align: center;
+	float:right;
+	margin-right: 49%;
+	margin-top:20%;
+}
